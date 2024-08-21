@@ -1,0 +1,8 @@
+.Header {
+  .imgContainer {
+    height: 16.5vw;
+    img {
+      filter: drop-shadow(0 0 0.4vw rgba(0, 0, 0, 0.2));
+    }
+  }
+}

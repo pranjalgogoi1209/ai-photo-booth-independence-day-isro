@@ -1,0 +1,30 @@
+.OutputPage {
+  height: calc(100dvh - 36.5vw);
+  padding: 5vw 0;
+  gap: 10vw;
+  /* border: 1px solid #000; */
+  justify-content: flex-start !important;
+
+  .loader {
+    margin-top: 30vw;
+    width: 70vw;
+  }
+  .generatedImgContainer {
+    gap: 10vw;
+    .imgContainer {
+      width: 50vw;
+      background: linear-gradient(white, white) padding-box,
+        linear-gradient(
+            to right,
+            var(--themeColor1),
+            var(--themeColor2),
+            var(--themeColor3)
+          )
+          border-box;
+      border: 0.5vw solid transparent;
+    }
+    .btnContainer {
+      gap: 2vw;
+    }
+  }
+}
